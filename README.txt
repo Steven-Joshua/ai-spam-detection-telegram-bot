@@ -1,12 +1,12 @@
-# 🤖 AI-Powered Spam Detection System
+🤖 AI-Powered Spam Detection System
 
-### (Machine Learning + LLM + FastAPI + Telegram Bot)
+(Machine Learning + LLM + FastAPI + Telegram Bot)
 
 An end-to-end AI system that detects spam messages using a trained Machine Learning model and enhances predictions with LLM-based explanations. The system is deployed using FastAPI and integrated with a Telegram Bot for real-time interaction.
 
 ---
 
-## 🚀 Project Overview
+🚀 Project Overview
 
 This project demonstrates:
 
@@ -20,7 +20,7 @@ It showcases both **Data Science modeling** and **AI/ML system deployment skills
 
 ---
 
-## 🔬 Model Development (Data Science)
+🔬 Model Development (Data Science)
 
 The spam classifier was built using:
 
@@ -52,11 +52,11 @@ training/count.py
 
 ---
 
-## 🏗 System Architecture
+🏗 System Architecture
 
 User → Telegram Bot → FastAPI → ML Model → LLM Explanation → Response
 
-### Components:
+Components:
 
 * **ML Model** for spam classification
 * **Confidence-aware predictions**
@@ -66,7 +66,7 @@ User → Telegram Bot → FastAPI → ML Model → LLM Explanation → Response
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```
 AI-SPAM-DETECTION-TELEGRAM/
@@ -99,7 +99,7 @@ AI-SPAM-DETECTION-TELEGRAM/
 
 ---
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
 * FastAPI
 * Uvicorn
@@ -113,9 +113,9 @@ AI-SPAM-DETECTION-TELEGRAM/
 
 ---
 
-## ⚙️ Installation & Setup
+⚙️ Installation & Setup
 
-### 1️⃣ Clone Repository
+1️⃣ Clone Repository
 
 ```
 git clone <your_repo_url>
@@ -124,7 +124,7 @@ cd AI-SPAM-DETECTION-TELEGRAM
 
 ---
 
-### 2️⃣ Create Virtual Environment
+2️⃣ Create Virtual Environment
 
 ```
 python -m venv venv
@@ -133,7 +133,7 @@ venv\Scripts\activate
 
 ---
 
-### 3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 
 ```
 pip install -r requirements.txt
@@ -141,7 +141,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ Create Environment Variables
+4️⃣ Create Environment Variables
 
 Create a `.env` file in the root folder:
 
@@ -154,7 +154,7 @@ TELEGRAM_BOT_TOKEN=your_bot_token_here
 
 ---
 
-## ▶️ Running the Application
+▶️ Running the Application
 
 Start FastAPI server:
 
@@ -170,7 +170,7 @@ python telegram_bot.py
 
 ---
 
-## 🖼 OCR Requirement
+🖼 OCR Requirement
 
 If using image-based spam detection, install Tesseract OCR separately:
 
@@ -178,7 +178,7 @@ https://github.com/tesseract-ocr/tesseract
 
 ---
 
-## 🎯 Key Features
+🎯 Key Features
 
 * Hybrid ML + LLM architecture
 * Real-time spam detection
@@ -189,7 +189,7 @@ https://github.com/tesseract-ocr/tesseract
 
 ---
 
-## 📌 Future Improvements
+📌 Future Improvements
 
 * Compare models (Naive Bayes, XGBoost)
 * Docker containerization
@@ -199,7 +199,7 @@ https://github.com/tesseract-ocr/tesseract
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
 
 Steven Joshua
 MSc Data Science
